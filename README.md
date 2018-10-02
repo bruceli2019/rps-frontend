@@ -30,11 +30,13 @@ We're starting with raw HTML content, and our goals are to get to:
 
 ### Documentation
 
- - [Outline buttons](http://getbootstrap.com/docs/4.1/components/buttons/#outline-buttons)
- - [Cards with contextual colored borders](http://getbootstrap.com/docs/4.1/components/card/#border)
- - [Alerts](http://getbootstrap.com/docs/4.1/components/alerts/)
- - [Table contextual classes](http://getbootstrap.com/docs/4.1/content/tables/#contextual-classes)
- - [The Grid](http://getbootstrap.com/docs/4.1/layout/grid/#all-breakpoints)
+ - [Official Bootstrap Docs](http://getbootstrap.com/)
+    - [Outline buttons](http://getbootstrap.com/docs/4.1/components/buttons/#outline-buttons)
+    - [Cards with contextual colored borders](http://getbootstrap.com/docs/4.1/components/card/#border)
+    - [Alerts](http://getbootstrap.com/docs/4.1/components/alerts/)
+    - [Table contextual classes](http://getbootstrap.com/docs/4.1/content/tables/#contextual-classes)
+    - [The Grid](http://getbootstrap.com/docs/4.1/layout/grid/#all-breakpoints)
+ - [Bootstrap 4 Cheatsheet](https://hackerthemes.com/bootstrap-cheatsheet)
 
 ### Assets
 
