@@ -47,6 +47,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
+  gem "better_errors"
+  gem "binding_of_caller"
   gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"
   gem 'dotenv-rails'
   gem "draft_log", github: "firstdraft/draft_log"
