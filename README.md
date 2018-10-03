@@ -15,10 +15,13 @@ Follow the usual setup steps:
 
  1. Once the previous step completes successfully and you're back at the `$` prompt, launch your Rails application server by clicking the "Run Project" button at the top of the IDE. You'll know it launched when it says "Press Ctrl-C to stop".
  1. Visit the live application preview URL that it gives you to see the app running.
- 1. As you work, remember to navigate to `/git` and **commit often as you work.**
-We're starting with raw HTML content, and our goals are to get to:
- 1. Make new branches freely to experiment! _Especially_ before starting on a new task.
- 
+ 1. If you want to peek at the instructor's workspace from time to time (e.g. to catch up if you fall behind), it is located at (depending on which section you're in):
+    - Tuesday section: https://ide.c9.io/demostudent6/rps-frontend-tuesday
+    - Wednesday section: https://ide.c9.io/demostudent6/rps-frontend-wednesday
+    - Thursday section: https://ide.c9.io/demostudent6/rps-frontend-thursday
+
+    Ignore the "request access" banner at the top; that is only if you need to edit my code (which you don't). You can click into any folder and file to view anything already.
+    
 ### Intermediate target
 
 [http://rps-bs4-intermediate.herokuapp.com/](http://rps-bs4-intermediate.herokuapp.com/)
