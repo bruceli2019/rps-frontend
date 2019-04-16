@@ -1,52 +1,93 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>We played rock!</title>
-
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
-
   <!-- Connect Font Awesome CSS -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.2/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <!-- Connect Bootswatch CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/sketchy/bootstrap.min.css">
+  <!-- Connect Bootstrap JavaScript and its dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Make it responsive to small screens -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 </head>
 
 <body>
-  <a href="rock.html">
-    <i class="far fa-hand-rock fa-fw"></i>
 
-    Play Rock
-  </a>
+  <!--used to be table, now we use divs with class container, row, columns-->
+  <div class="container mt-5">
+    <div class="row mb-3">
+      <div class="col-4">
+        <!--btn and btn-primary is Bootstrap class for button-->
+        <a href="rock.html" class="btn btn-info btn-block">
+          <i class="far fa-hand-rock fa-fw"></i>
+          <span class = "d-none d-sm-inline-block">Play Rock</span>
+        </a>
+      </div>
 
-  <a href="paper.html">
-    <i class="far fa-hand-paper fa-fw"></i>
+      <div class="col-4">
+        <a href="paper.html" class="btn btn-outline-info btn-block">
+          <i class="far fa-hand-paper fa-fw text-center"></i>
+          <span class = "d-none d-sm-inline-block">Play Paper</span>
+        </a>
+      </div>
 
-    Play Paper
-  </a>
+      <div class="col-4">
+        <a href="scissors.html" class="btn btn-outline-info btn-block">
+          <i class="far fa-hand-scissors fa-fw"></i>
+          <span class = "d-none d-sm-inline-block">Play Paper</span>
+        </a>
+      </div>
+    </div>
 
-  <a href="scissors.html">
-    <i class="far fa-hand-scissors fa-fw"></i>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card border-success mb-3 text-center">
+          <div class="card-body text-success">
+            <h2 class="card-title">We played rock!</h5>
+              <p class="card-text">
+                <i class="far fa-hand-rock fa-10x"></i>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-danger mb-3 text-center">
+          <div class="card-body text-danger">
+            <h2 class="card-title">They played paper!</h5>
+              <p class="card-text">
+                <i class="far fa-hand-paper fa-10x"></i>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    Play Scissors
-  </a>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="alert alert-danger" role="alert">
+          <h2 class="text-center display-3">
+            We lost!
+          </h2>
+        </div>
+      </div>
+    </div>
 
-  <h2>We played rock!</h2>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <a href="index.html">
+          Rules
+        </a>
+      </div>
+    </div>
+  </div>
 
-  <p>
-    <i class="far fa-hand-rock fa-10x"></i>
-  </p>
 
-  <h2>They played paper!</h2>
-
-  <p>
-    <i class="far fa-hand-paper fa-10x"></i>
-  </p>
-
-  <h2>
-    We lost!
-  </h2>
-
-  <a href="index.html">
-    Rules
-  </a>
 </body>
+
 </html>
